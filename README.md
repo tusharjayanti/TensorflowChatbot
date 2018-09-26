@@ -14,32 +14,49 @@ I broke down the dataset into sizes of 2000 conversations and runned them like a
 Dependencies:
 
 numpy
+
 scipy
+
 six
+
 tensorflow, specifically tensorflow==0.12 (Newer versions will result in error)
 
 virtualenv.
 
 
-To prepare training data 
+To prepare training data
+
 run the following
+
  -> cd datasets/seq2seq/cornell_movie_corpus/scripts/
+ 
  -> python prepare_data.py
  
 Installation:
 
 cd Tensorflow_Chatbot(into your directory)
+
 virtualenv local
+
 source local/bin/activate
+
 
 USAGE:
 
 to Train
+
 Change mode in seq2seq.ini (i.e change value of mode to train)
+
 mode = train
+
 and run python execute.py
 
+
 to Test
+
 Change mode in seq2seq.ini (i.e change value of mode to train)
+
 mode = test
+
 and run python execute.py
+
