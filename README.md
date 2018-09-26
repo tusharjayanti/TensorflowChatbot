@@ -14,11 +14,8 @@ I broke down the dataset into sizes of 2000 conversations and runned them like a
 Dependencies:
 
 numpy
-
 scipy
-
 six
-
 tensorflow, specifically tensorflow==0.12 (Newer versions will result in error)
 
 virtualenv.
